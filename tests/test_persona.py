@@ -18,7 +18,7 @@ class PersonaTestCase(unittest.TestCase):
 
     def test_anio_nacimiento(self):
         self.assertEqual(self.persona1.calcular_anio_nacimiento(
-            True), datetime.datetime.now().year - 25)
+            True), "darwin")
         self.assertNotEqual(self.persona1.calcular_anio_nacimiento(
             False), datetime.datetime.now().year - 25)
         self.assertEqual(self.persona1.calcular_anio_nacimiento(
